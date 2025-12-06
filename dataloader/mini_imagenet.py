@@ -4,8 +4,8 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 import numpy as np
 
-IMAGE_PATH = r'C:\Users\ritul\class aware patch embedding adaptation project\Kvasir dataset\images_by_label'
-SPLIT_PATH = r'C:\Users\ritul\class aware patch embedding adaptation project\split_data_for_kvasir'
+IMAGE_PATH = r'C:\Users\ritul\cpea for image classification\class aware patch embedding adaptation project\Kvasir dataset\images_by_label'
+SPLIT_PATH = r'C:\Users\ritul\cpea for image classification\class aware patch embedding adaptation project\split_data_for_kvasir'
 
 
 class MiniImageNet(Dataset):
